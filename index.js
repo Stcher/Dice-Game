@@ -17,7 +17,8 @@ function rollDice() {
             choosePic();
         }
     }
-    
+
+    // When user press any key, update the whole page
     document.addEventListener("keydown", function() {
         refreshPage();
     })
